@@ -1,0 +1,192 @@
+/* 
+Cores do KGBFilmes 
+*/
+.bg-kgb {
+  background-color: black;
+  background-image: linear-gradient(#130591, black);
+}
+
+.bg-kgb1 {
+  background-color: black;
+}
+
+.text-kgb {
+  color: grey;
+}
+
+.text-kgb-azul {
+  color: #130591;
+}
+
+.border-kgb {
+  border-color: #130591;
+}
+.bg-kgb-escuro {
+  background-color: black;
+}
+
+.text-kgb-escuro {
+  color: black;
+}
+
+.border-kgb-escuro {
+  border-color: black;
+}
+
+/* 
+Tamanhos diferentes para fontes 
+*/
+.font-75 {
+  font-size: 75%;
+}
+
+.font-115 {
+  font-size: 115%;
+}
+
+.font-125 {
+  font-size: 125%;
+}
+
+.font-150 {
+  font-size: 150%;
+}
+
+.font-175 {
+  font-size: 175%;
+}
+
+/* 
+Formatação do DataTable 
+*/
+table.dataTable.dtr-inline.collapsed
+  > tbody
+  > tr[role='row']
+  > td:first-child::before,
+table.dataTable.dtr-inline.collapsed
+  > tbody
+  > tr[role='row']
+  > th:first-child::before {
+  top: 15px !important;
+}
+
+/* 
+Personalização da Barra de menu pra ficar igual do site 
+*/
+.navbar {
+  padding: 0 !important;
+}
+
+.navbar .navbar-brand {
+  padding-left: 10px;
+}
+
+.navbar a.nav-link {
+  color: white !important;
+}
+
+.navbar .nav-item {
+  padding: 3px 5px;
+}
+
+.navbar .nav-item:hover {
+  background-color: grey;
+}
+
+/* 
+Alerta na validação dos formulários (login com senha errada, por exemplo) 
+*/
+.alert dl,
+.alert ol,
+.alert ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*
+Largura máxima das tabelas para não ficar mal formatada
+*/
+table td {
+  max-width: 500px;
+}
+
+/* Slider */
+
+html {
+  border-top: 5px solid #fff;
+  background: #f9f9f9;
+}
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+}
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 1000px;
+  height: 400px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+a.control_prev,
+a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+a.control_prev:hover,
+a.control_next:hover {
+  opacity: 1;
+  transition: all 0.2s ease;
+}
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+.slider_option {
+  position: relative;
+  margin: 10px auto;
+  width: 160px;
+  font-size: 18px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 7px;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
